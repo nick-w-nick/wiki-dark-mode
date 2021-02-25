@@ -1,0 +1,390 @@
+/* ==UserStyle==
+@name        StockpileReports Wiki Dark Mode
+@version     3.0.4
+@description StockpileReports Wiki Dark Mode
+@namespace   nick-w-nick
+@author      nick-w-nick
+@co-authors  https://github.com/nick-w-nick/wiki-dark-mode/graphs/contributors
+@homepageURL https://github.com/nick-w-nick/wiki-dark-mode
+@supportURL  https://github.com/nick-w-nick/wiki-dark-mode/issues
+@updateURL   https://raw.githubusercontent.com/nick-w-nick/wiki-dark-mode/master/wiki-dark-mode.user.css
+==/UserStyle== */
+
+:root {
+    --color-primary: #0e111c;
+    --light-gray: #c9d1d9;
+    --blue-foreground: #24293c;
+    --white: #FFFFFF;
+    background-color: #0e111c;
+    --border-radius: 3px;
+    --light-blue: #89B0CC;
+}
+
+html, body {
+    background-color: var(--color-primary) !important;
+    color: var(--white) !important;
+}
+
+header {
+    border-bottom: none !important;
+}
+
+div#content div.flex-fill form.flex-fill div {
+    background-color: var(--color-primary) !important;
+}
+
+i.mce-ico {
+    color: var(--light-gray) !important;
+}
+
+div.edit-area {
+    outline: 1px red;
+}
+
+button {
+    border: 1px solid var(--color-primary) !important;
+    border-color: var(--color-primary);
+}
+
+.mce-btn {
+    border: 1px solid transparent !important;
+}
+
+.mce-btn-group:not(:first-child) {
+    border: none !important;
+}
+
+.mce-btn-group > div div.mce-btn button:hover {
+    outline: none !important;
+    background-color: var(--blue-foreground) !important;
+    border-radius: 0.2em;
+}
+
+.floating-toolbox, .tabs {
+    border: none !important;
+}
+
+.floating-toolbox .tabs > button {
+    border-bottom: none !important;
+}
+
+.floating-toolbox .tabs > button:hover {
+    background-color: var(--blue-foreground) !important;
+}
+
+.floating-toolbox .tabs > button svg {
+    fill: var(--light-gray);
+}
+
+.title-input.page-title input[type="text"] {
+    background-color: var(--blue-foreground) !important;
+    margin-bottom: 25px;
+}
+
+.form-group input {
+    background-color: var(--color-primary);
+    border: none !important;
+}
+
+span.mce-txt {
+    color: var(--white) !important;
+}
+
+.card {
+    background-color: var(--blue-foreground);
+    color: var(--white);
+}
+
+a {
+    color: #79aeff;
+}
+
+h1, h2, h3, h4, h5, span {
+    color: var(--white);
+}
+
+svg {
+    fill: var(--light-gray);
+}
+
+.button {
+    color: var(--white) !important;
+}
+
+p {
+    color: var(--white);
+}
+
+hr.primary-background {
+    background-color: var(--light-gray) !important;
+}
+
+.mce-panel {
+    border: none !important;
+}
+
+div > a#social-login-google {
+    border-radius: var(--border-radius);
+    background-color: var(--color-primary);
+    border: 0.17em solid transparent;
+    transition: background-color ease-in-out 150ms, border ease-in-out 150ms !important;
+}
+
+div > a#social-login-google:hover {
+    background-color: var(--blue-foreground);
+    border: 0.17em solid var(--color-primary);
+}
+
+a#social-login-google.button {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+button.button {
+    border-radius: var(--border-radius) !important;
+    background-color: var(--color-primary) !important;
+    border: 0.2em solid transparent;
+    box-shadow: none !important;
+    transition: background-color ease-in-out 150ms, border ease-in-out 150ms !important;
+}
+
+button.button:hover {
+    background-color: var(--blue-foreground) !important;
+    border: 0.2em solid var(--color-primary);
+}
+
+label {
+    color: var(--white);
+}
+
+.entity-meta {
+    color: var(--white) !important;
+}
+
+.sidebar-page-nav .sidebar-page-nav-bullet {
+    box-shadow: 0 0 0 5px var(--blue-foreground);
+}
+
+.sidebar-page-nav li:not(.current-heading) .sidebar-page-nav-bullet {
+    background-color: var(--white) !important;
+}
+
+div.icon-list a:hover {
+    background-color: var(--blue-foreground) !important;
+}
+
+div.dropdown-container > div.icon-list-item:hover {
+    background-color: var(--blue-foreground) !important;
+}
+
+div.dropdown-container > div.icon-list-item:focus {
+    background-color: var(--blue-foreground) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--blue-foreground);
+    border: none !important;
+    border-radius: var(--border-radius) !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    top: 100% !important;
+    width: 100%;
+}
+
+.dropdown-menu li a {
+    color: var(--white);
+}
+
+ul.anim li {
+    background-color: var(--blue-foreground);
+    color: var(--white) !important;
+}
+
+ul.anim li a:hover {
+    background-color: var(--color-primary) !important;
+    color: var(--white) !important;
+}
+
+.comment-box {
+    background-color: var(--blue-foreground);
+    border: none !important;
+}
+
+textarea {
+    background-color: var(--color-primary);
+    border: none !important;
+}
+
+header .search-box button {
+    outline: none !important;
+    border: none !important;
+}
+
+header .search-box input#header-search-box-input {
+    background-color: var(--blue-foreground) !important;
+    border: none !important;
+}
+
+header .search-box input#header-search-box-input:hover {
+    background-color: var(--blue-foreground) !important;
+}
+
+table {
+    color: var(--white) !important;
+}
+
+button.text-button {
+    color: var(--light-gray) !important;
+    border: none !important;
+}
+
+input.tag-input {
+    background-color: var(--blue-foreground) !important;
+    color: var(--white) !important;
+}
+
+form.v-cloak button.button {
+    background-color: var(--blue-foreground) !important;
+}
+
+form.v-cloak button.button:hover {
+    background-color: var(--color-primary) !important;
+}
+
+label.checkbox input[type=checkbox] {
+    appearance: none !important;
+    -webkit-appearance: none;
+	background-color: var(--blue-foreground);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: var(--border-radius);
+	display: inline-block;
+	position: relative;
+    outline: none !important;
+}
+
+label.checkbox input[type=checkbox]:checked {
+	color: var(--light-blue);
+}
+
+label.checkbox input[type=checkbox]:checked:after {
+	content: '\2714';
+	font-size: 1em;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: var(--light-blue);
+}
+
+label.checkbox {
+    padding-right: 10px !important;
+    white-space: nowrap;
+}
+
+label.checkbox input[type=checkbox] {
+    vertical-align: middle !important;
+}
+
+.text-muted {
+    color: var(--light-gray) !important;
+}
+
+div.card hr.my-l {
+    background: transparent !important; 
+}
+
+span.custom-checkbox {
+    outline: none !important;
+}
+
+span.custom-checkbox svg {
+    fill: var(--light-blue) !important;
+}
+
+.button.svg {
+    padding: 12px 16px 12px 56px !important;
+}
+
+@media screen and (max-width: 1230px) {
+    nav.header-links {
+        background-color: var(--blue-foreground) !important;
+    }
+    .links a {
+        color: var(--white) !important;
+    }
+    .links a:hover {
+        background-color: var(--color-primary) !important;
+    }
+}
+
+.setting-list div > label, p {
+    color: var(--white) !important;
+}
+
+.setting-list input {
+    background-color: var(--color-primary) !important;
+    border: none !important;
+    border-radius: var(--border-radius);
+    color: var(--white) !important;
+}
+
+.button.outline {
+    border-radius: var(--border-radius) !important;
+    background-color: var(--color-primary) !important;
+    border: 1px solid transparent;
+    box-shadow: none !important;
+    transition: background-color ease-in-out 150ms, border ease-in-out 150ms !important;
+}
+
+.button.outline:hover {
+    background-color: var(--blue-foreground) !important;
+    border: 1px solid var(--color-primary);
+}
+
+select {
+    background-color: var(--color-primary) !important;
+    outline: none !important;
+    border: none !important;
+    color: var(--white) !important;
+}
+
+main.card table tr td small {
+    color: var(--light-gray);
+}
+
+main.card table tr:hover {
+    background-color: var(--color-primary) !important;
+}
+
+.entity-list-item:hover {
+    background-color: var(--color-primary) !important;
+}
+
+.entity-list-item, .icon-list-item {
+    outline: none !important;
+}
+
+small, .text-small {
+    color: var(--light-gray) !important;
+}
+
+del, ins {
+    color: var(--blue-foreground) !important;
+}
+
+span[style*="color: #000000;"] {
+    color: var(--white) !important;
+}
+
+span[style*="background-color: #ffffff;"] {
+    color: var(--color-primary) !important;
+}
+
+header#header.primary-background > div a.logo {
+    outline: none !important;
+    border: none !important;
+}

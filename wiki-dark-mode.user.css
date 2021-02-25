@@ -10,7 +10,7 @@
 @updateURL   https://raw.githubusercontent.com/nick-w-nick/wiki-dark-mode/master/wiki-dark-mode.user.css
 ==/UserStyle== */
 
-@-moz-document regexp("http://wiki\.urcventures\/.*$") {
+@-moz-document regexp("http:\/\/wiki\.urcventures\.com$") {
 
     :root {
         --color-primary: #0e111c;

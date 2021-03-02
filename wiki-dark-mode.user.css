@@ -523,5 +523,6 @@
     
     .CodeMirror-copy {
         background-color: var(--blue-foreground) !important;
+        border: none !important;
     }
 }

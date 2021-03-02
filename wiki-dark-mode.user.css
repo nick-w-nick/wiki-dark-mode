@@ -506,4 +506,22 @@
         border: 1px solid transparent !important;
         color: var(--white) !important;
     }
+    
+    div.CodeMirror.cm-s-base16-light {
+        background-color: var(--color-primary) !important;
+        border-radius: var(--border-radius) !important;
+        border: 1px solid var(--color-primary) !important;
+    }
+    
+    div.CodeMirror-linenumbers {
+        background-color: var(--color-primary) !important;
+    }
+    
+    .cm-s-base16-light .CodeMirror-gutters {
+        border: none !important;
+    }
+    
+    .CodeMirror-copy {
+        background-color: var(--blue-foreground) !important;
+        
 }

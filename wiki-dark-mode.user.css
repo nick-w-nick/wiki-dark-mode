@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        StockpileReports Wiki Dark Mode
-@version     1.0.1
+@version     1.0.2
 @description StockpileReports Wiki Dark Mode
 @namespace   nick-w-nick
 @author      nick-w-nick
@@ -523,5 +523,5 @@
     
     .CodeMirror-copy {
         background-color: var(--blue-foreground) !important;
-        
+    }
 }

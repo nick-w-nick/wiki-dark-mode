@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img height="500" src="wiki-dark-mode-1.png" style="max-width:100%;"></img>
+    <img src="wiki-dark-mode-1.png" style="max-width:100%;"></img>
 </p>
 
 #

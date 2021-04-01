@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        StockpileReports Wiki Dark Mode
-@version     1.0.4
+@version     1.0.5
 @description StockpileReports Wiki Dark Mode
 @namespace   nick-w-nick
 @author      nick-w-nick
@@ -527,7 +527,7 @@
     }
     
     code {
-        background-color: var(--color-primary) i !important;
+        background-color: var(--color-primary) !important;
         border: none !important;
     }
 }

@@ -482,9 +482,6 @@
         background-color: var(--color-primary) !important;
     }
     
-    /*     .mce-container-body div[class*="mce-selected"] span.mce-text {
-        background-color: var(--color-primary) !important;
-    } */
     div.mce-container {
         background-color: var(--blue-foreground) !important;
     }

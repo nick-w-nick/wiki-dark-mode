@@ -527,4 +527,8 @@
         background-color: var(--color-primary) !important;
         border: none !important;
     }
+    
+    blockquote {
+        background-color: var(--color-primary) !important;
+    }
 }

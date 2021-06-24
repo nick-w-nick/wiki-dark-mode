@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        StockpileReports Wiki Dark Mode
-@version     1.0.6
+@version     1.0.7
 @description StockpileReports Wiki Dark Mode
 @namespace   nick-w-nick
 @author      nick-w-nick
@@ -530,5 +530,13 @@
     
     blockquote {
         background-color: var(--color-primary) !important;
+    }
+    
+    .entity-list .entity-list-item {
+        background-color: var(--color-primary) !important;
+    }
+    
+    .entity-list .entity-list-item:hover {
+        background-color: var(--blue-foreground) !important;
     }
 }

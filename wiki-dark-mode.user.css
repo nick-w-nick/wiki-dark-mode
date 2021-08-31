@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        StockpileReports Wiki Dark Mode
-@version     1.0.7
+@version     1.0.8
 @description StockpileReports Wiki Dark Mode
 @namespace   nick-w-nick
 @author      nick-w-nick
@@ -538,5 +538,21 @@
     
     .entity-list .entity-list-item:hover {
         background-color: var(--blue-foreground) !important;
+    }
+    
+    .callout.info {
+        color: #0288D1 !important;
+    }
+    
+    .callout.danger {
+        color: #AB0F0E !important;
+    }
+    
+    .callout.warning {
+        color: #CF4D03 !important;
+    }
+    
+    .callout.success {
+        color: #0F7D15 !important;
     }
 }

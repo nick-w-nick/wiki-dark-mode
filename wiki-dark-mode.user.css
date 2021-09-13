@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        StockpileReports Wiki Dark Mode
-@version     1.0.8
+@version     1.0.9
 @description StockpileReports Wiki Dark Mode
 @namespace   nick-w-nick
 @author      nick-w-nick
@@ -540,19 +540,19 @@
         background-color: var(--blue-foreground) !important;
     }
     
-    .callout.info {
+    .callout.info, .callout.info > span {
         color: #0288D1 !important;
     }
     
-    .callout.danger {
+    .callout.danger, .callout.danger > span {
         color: #AB0F0E !important;
     }
     
-    .callout.warning {
+    .callout.warning, .callout.warning > span {
         color: #CF4D03 !important;
     }
     
-    .callout.success {
+    .callout.success, .callout.success > span {
         color: #0F7D15 !important;
     }
 }
